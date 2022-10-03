@@ -196,11 +196,9 @@ BigAurasSpells.spells = {
         [18425]= {category = "crowdControl",priority = 1},	-- Silenced - Improved Kick
         [24259]= {category = "crowdControl",priority = 1},	-- Spell Lock (Felhunter)
         [18498]= {category = "crowdControl",priority = 1},	-- Silenced - Gag Order
-        [316421]= {category = "crowdControl",priority = 1},	-- Arcane Torrent (15 energy)
-            [302387] = {parent = 316421},
-            [316418] = {parent = 316421},
-            [316419] = {parent = 316421},
-            [316420] = {parent = 316421},
+        [28730]= {category = "crowdControl",priority = 1},	-- Arcane Torrent (15 energy)
+            [25046] = {parent = 28730},
+            [50613] = {parent = 28730},
         [54785]= {category = "crowdControl",priority = 1},  -- Demon Charge
 
 
