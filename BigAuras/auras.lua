@@ -184,7 +184,7 @@ BigAurasSpells.spells = {
             [67890] = {parent = 30217},
         [67769]= {category = "crowdControl",priority = 1},	-- Cobalt Frag Bomb
         [30216]= {category = "crowdControl",priority = 1},	-- Fel Iron Bomb
-        [316386]= {category = "crowdControl",priority = 1},	-- War Stomp
+        [20549]= {category = "crowdControl",priority = 1},	-- War Stomp
             -- Silences
         [47476]= {category = "crowdControl",priority = 1},	-- Strangulate
         [34490]= {category = "crowdControl",priority = 1},	-- Silencing Shot
