@@ -388,6 +388,12 @@ BigAurasSpells.spells = {
         [39965] = {category = "roots",priority = 1},	-- Frost Grenade
         [55536] = {category = "roots",priority = 1},	-- Frostweave Net
         [13099] = {category = "roots",priority = 1},	-- Net-o-Matic
+            [13119] = {parent = 13099},
+            [13120] = {parent = 13099},
+            [13138] = {parent = 13099},
+            [13139] = {parent = 13099},
+            [16566] = {parent = 13099},
+
 }
 
 function BigAurasSpells:GetListCategories()
