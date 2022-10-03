@@ -42,12 +42,6 @@ BigAurasSpells.spells = {
         [34692] = {category = "immunity",priority = 1},
             [34471] = {parent = 34692},
         [31224] = {category = "immunity",priority = 1},
-        [316243] = {category = "immunity",priority = 1},
-        [316271] = {category = "immunity",priority = 1},
-        [316294] = {category = "immunity",priority = 1},
-        [316372] = {category = "immunity",priority = 1},
-        [316405] = {category = "immunity",priority = 1},
-        [316413] = {category = "immunity",priority = 1},
         [23920] = {category = "immunity",priority = 1},
             [43443] = {parent = 23920},
             [59725] = {parent = 23920},
@@ -288,7 +282,6 @@ BigAurasSpells.spells = {
         [29166] = {category = "defensive",priority = 1}, -- Innervate
         [22842] = {category = "defensive",priority = 1}, -- Frenzied Regeneration
         [22812] = {category = "defensive",priority = 1}, -- Barkskin
-        [316255] = {category = "defensive",priority = 1}, -- after Meld
 
 
     --offensive
@@ -331,17 +324,9 @@ BigAurasSpells.spells = {
 
 
     --other
-        [308876] = {category = "other", priority = 1}, -- Necrotic trinket(sirus.su)
-            [308874] = {parent = 308876},
-            [308875] = {parent = 308876},
-            [308877] = {parent = 308876},
-            [308878] = {parent = 308876},
-            [308879] = {parent = 308876},
-            [316612] = {parent = 308876},
         
         
     --roots
-        [319322] = {category = "roots",priority = 1}, -- Lightforged
         [53148] = {category = "roots",priority = 1},  -- Charge(pets)
         [53308] = {category = "roots",priority = 1},  -- Entangling Roots
             [339] = {parent = 53308},
@@ -403,7 +388,6 @@ BigAurasSpells.spells = {
         [39965] = {category = "roots",priority = 1},	-- Frost Grenade
         [55536] = {category = "roots",priority = 1},	-- Frostweave Net
         [13099] = {category = "roots",priority = 1},	-- Net-o-Matic
-        [316455] = {category = "roots",priority = 1},   -- Vulpera root (after (stun)) - Sirus.su
 }
 
 function BigAurasSpells:GetListCategories()
